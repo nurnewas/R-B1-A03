@@ -26,8 +26,23 @@
         },
       };
     </script>
+    <!-- Google Fonts: Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .manrope-unique-class {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400; 
+        font-style: normal;
+      }
+    </style>
   </head>
-  <body>
+  <body class="manrope-unique-class">
     <header class="">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -386,8 +401,56 @@
         </p>
 
         <!-- 1st card -->
-         div
-         
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 p-4">
+          <!-- Row 1, Column 3 -->
+          <div
+            class="card col-span-3 flex flex-col lg:flex-row card-side bg-base-100"
+          >
+            <figure>
+              <img src="assets/img1.png" alt="home" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern. The barn house captivates with its blend of rustic charm
+                and modern .
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-primary">View Details</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 1, Column 4 -->
+          <figure class="px-10 pt-10">
+            <img src="assets/img2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <!-- Row 2, Column 1 -->
+          <figure class="px-10 pt-10">
+            <img src="assets/img3.png" alt="Shoes" class="rounded-xl card" />
+          </figure>
+          <!-- Row 2, Column 2 -->
+          <div class="card col-span-2 card-side bg-base-100">
+            <figure>
+              <img src="assets/img4.png" alt="Movie" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial!</h2>
+              <p>
+                The barn house captivates with its blend of rustic charm and
+                modern.
+              </p>
+              <div class="card-actions justify-start">
+                <button class="btn btn-primary">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2, Column 4 -->
+          <figure class="px-10 pt-10">
+            <img src="assets/img5.png" alt="Shoes" class="rounded-xl card" />
+          </figure>
+        </div>
       </section>
 
       <!-- Our Latest Portfolio -->
